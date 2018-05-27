@@ -5,15 +5,20 @@
       <p class="lead">
       {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
       </p>
+      <a href="{{ .Site.RSSLink }}"></a><i class="fas fa-rss"></i></a>
+      <a href="https://twitter.com/{{ .Site.Params.twitter }}"><i class="fal fa-twitter"></i></a>
+      <a href="https://github.com/{{ .Site.Params.github }}"><i class="fal fa-github"></i></a>
+      <a href="https://linkedin.com/in/{{ .Site.Params.linkedin }}"><i class="fal fa-linkedin"></i></a>
+
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
+      <li><a href="{{ .Site.BaseURL }}">Blog</a> </li>
       {{ range .Site.Menus.main -}}
         <li><a href="{{.URL}}"> {{ .Name }} </a></li>
       {{- end }}
     </ul>
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+    <p><a href="https://creativecommons.org/licenses/{{ .Site.Params.creativeCommons }}/4.0/"><img src="{{ .Site.BaseURL}}images/{{ .Site.Params.creativeCommons }}.png" alt="CC {{ .Site.Params.creativeCommons }}" class="inline" /></a> {{ .Site.Params.author }}</p>
   </div>
 </div>
