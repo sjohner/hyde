@@ -1,24 +1,46 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <a href="{{ .Site.BaseURL }}">
+        <h1>{{ .Site.Title }}</h1>
+      </a>
       <p class="lead">
-      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+        {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for
+        <a href="http://hugo.spf13.com">hugo</a> made by
+        <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
       </p>
-      <a href="{{ .Site.RSSLink }}"></a><i class="fas fa-rss"></i></a>
-      <a href="https://twitter.com/{{ .Site.Params.twitter }}"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/{{ .Site.Params.github }}"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/{{ .Site.Params.linkedin }}"><i class="fab fa-linkedin"></i></a>
-
+      <p>
+        <a href="{{ .Site.RSSLink }}">
+          <i class="fas fa-rss fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/{{ .Site.Params.twitter }}">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://github.com/{{ .Site.Params.github }}">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://linkedin.com/in/{{ .Site.Params.linkedin }}">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+      </p>
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="{{ .Site.BaseURL }}">Blog</a> </li>
+      <li>
+        <a href="{{ .Site.BaseURL }}">Blog</a>
+      </li>
       {{ range .Site.Menus.main -}}
-        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+      <li>
+        <a href="{{.URL}}"> {{ .Name }} </a>
+      </li>
       {{- end }}
     </ul>
 
-    <p><a href="https://creativecommons.org/licenses/{{ .Site.Params.creativeCommons }}/4.0/"><img style="opacity: 0.7;filter: alpha(opacity=70);" src="{{ .Site.BaseURL}}images/{{ .Site.Params.creativeCommons }}.png" width="100" alt="CC {{ .Site.Params.creativeCommons }}" class="inline" /></a> {{ .Site.Params.author }}</p>
+    <p>
+      <a href="https://creativecommons.org/licenses/{{ .Site.Params.creativeCommons }}/4.0/">
+        <img style="opacity: 0.7;filter: alpha(opacity=70);" src="{{ .Site.BaseURL}}images/{{ .Site.Params.creativeCommons }}.png"
+          width="100" alt="CC {{ .Site.Params.creativeCommons }}" class="inline" />
+      </a>
+    </p>
   </div>
 </div>
