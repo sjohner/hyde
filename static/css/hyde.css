@@ -69,9 +69,7 @@ html {
     text-align: left;
   }
   .sidebar img {
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
