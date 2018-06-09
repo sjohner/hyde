@@ -59,6 +59,14 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
+/* Sidebar images */
+.sidebar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -69,20 +77,14 @@ html {
     text-align: left;
   }
   .sidebar img {
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: auto;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
   color: #fff;
-}
-
-/* Sidebar images */
-.sidebar img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* About section */
