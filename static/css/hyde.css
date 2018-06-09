@@ -75,6 +75,13 @@ html {
   color: #fff;
 }
 
+/* Sidebar images */
+.sidebar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* About section */
 .sidebar-about h1 {
   color: #fff;
