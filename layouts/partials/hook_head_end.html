@@ -1,5 +1,10 @@
   <script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="{{ .Site.BaseURL }}socialshareprivacy/js/jquery.cookies.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.share').socialSharePrivacy();
+    });
+    </script>
   <script type="application/x-social-share-privacy-settings">
   {
     "path_prefix":"{{ .Site.BaseURL }}socialshareprivacy/",
