@@ -5,7 +5,10 @@
   {{ .Content }}
 </div>
 {{ if .Site.Params.socialSharePrivacy -}}
-<div data-social-share-privacy='true'></div>
+<div class="share"
+	lang="en"
+	data-order="twitter linkedin facebook gplus mail">
+</div>
 {{- end }}
 {{ if .Site.DisqusShortname -}}
 <h2>Comments</h2>
