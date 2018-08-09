@@ -320,10 +320,10 @@
 /* Buttons begin */
 /* gplus */
 .social_share_privacy_area.line .gplus img.gplusone_privacy_dummy {
-	width: 32px;
+	width: 70px;
 }
 .social_share_privacy_area.line li div.gplusone {
-	width: 90px;
+	width: 70px;
 }
 .social_share_privacy_area.box li div.gplusone {
 	min-width: 50px;
@@ -331,7 +331,7 @@
 }
 /* linkedin */
 .social_share_privacy_area.line .linkedin img.linkedin_privacy_dummy {
-	width: 63px;
+	width: 70px;
 	height: 20px;
 }
 .social_share_privacy_area.box .linkedin img.linkedin_privacy_dummy {
@@ -370,7 +370,7 @@
 /* mail */
 .social_share_privacy_area.line .mail a {
 	display: inline-block;
-	width: 35px;
+	width: 70px;
 	height: 20px;
 	margin-right: 10px;
 }
