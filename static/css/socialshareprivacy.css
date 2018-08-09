@@ -1,6 +1,6 @@
 .social_share_privacy_area {
 	clear: both;
-	margin: 5px 0;
+	margin: 50px 0 0 0;
 	list-style-type: none;
 	padding: 0;
 	width: auto;
@@ -126,8 +126,7 @@
     display: inline-block;
 	vertical-align: top;
 	border: 2px solid #e7e3e3;
-	border-right-width: 0;
-	-moz-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px 0 0 5px;
 	border-radius: 5px 0 0 5px;
     margin: 0;.social_share_privacy_area.line .mail a {
