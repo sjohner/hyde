@@ -130,12 +130,78 @@
 	-moz-border-radius: 5px 0 0 5px;
 	-webkit-border-radius: 5px 0 0 5px;
 	border-radius: 5px 0 0 5px;
-    margin: 0;
-    padding: 0;
+    margin: 0;.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
 }
-.social_share_privacy_area li.settings_info .settings_info_menu.perma_option_off .help_info.icon {
-	border-right-width: 2px;
-	-moz-border-radius: 5px;
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+}
+    padding: 0;.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
+}
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+}
+}.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
+}
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+}
+.social_share_privacy_a.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
+}
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+}rea li.settings_info .settings_info_menu.perma_option_off .help_info.icon {
+	border-right-width:.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
+}
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+} 2px;
+	-moz-border-radius:.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
+}
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+} 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
@@ -212,7 +278,18 @@
     margin: 4px 10px 4px 0;
     padding: 0;
 }
-.social_share_privacy_area li.settings_info .settings_info_menu form fieldset label {
+.social_share_privacy_ar.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
+}
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+}ea li.settings_info .settings_info_menu form fieldset label {
     display: block;
     font-size: 12px;
     font-weight: bold;
@@ -228,3 +305,79 @@
 	color: #090;
 }
 /* Settings/Info end */
+.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
+}
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+}
+/* Buttons begin */
+/* gplus */
+.social_share_privacy_area.line .gplus img.gplusone_privacy_dummy {
+	width: 32px;
+}
+.social_share_privacy_area.line li div.gplusone {
+	width: 90px;
+}
+.social_share_privacy_area.box li div.gplusone {
+	min-width: 50px;
+	min-height: 65px;
+}
+/* linkedin */
+.social_share_privacy_area.line .linkedin img.linkedin_privacy_dummy {
+	width: 63px;
+	height: 20px;
+}
+.social_share_privacy_area.box .linkedin img.linkedin_privacy_dummy {
+	width: 61px;
+	height: 62px;
+}
+.social_share_privacy_area.box .linkedin .dummy_btn {
+	min-width: 61px;
+	min-height: 62px;
+}
+/* twitter */
+.social_share_privacy_area.line li div.tweet {
+	width: 70px;
+}
+.social_share_privacy_area.line .twitter iframe {
+	width: 120px;
+	height: 20px;
+}
+.social_share_privacy_area.box .twitter iframe {
+	width: 62px;
+	height: 62px;
+}
+/* facebook */
+.social_share_privacy_area.line .facebook .fb_like {
+	margin-right: 10px;
+	width: 70px;
+}
+.social_share_privacy_area.line .facebook iframe {
+	width: 130px;
+	height: 21px;
+}
+.social_share_privacy_area.box .facebook iframe {
+	width: 62px;
+	height: 62px;
+}
+/* mail */
+.social_share_privacy_area.line .mail a {
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	margin-right: 10px;
+}
+.social_share_privacy_area.box .mail a {
+	display: block;
+	margin: auto;
+	width: 58px;
+	height: 39px;
+}
+/* Buttons end */

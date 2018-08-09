@@ -1,5 +1,5 @@
   <script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="{{ .Site.BaseURL }}socialshareprivacy/js/jquery.socialshareprivacy.min.js"></script>
+  <script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.socialshareprivacy.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
       $('.share').socialSharePrivacy();
@@ -7,8 +7,8 @@
     </script>
   <script type="application/x-social-share-privacy-settings">
   {
-    "path_prefix":"{{ .Site.BaseURL }}socialshareprivacy/",
-    "css_path":"stylesheets/socialshareprivacy.css",
+    "path_prefix":"{{ .Site.BaseURL }}",
+    "css_path":"css/socialshareprivacy.css",
     "layout":"line",
     "services":{
         "buffer":{"status":false},
