@@ -1,8 +1,8 @@
 .social_share_privacy_area.line .mail a {
 	display: inline-block;
-	width: 43px;
+	width: 35px;
 	height: 20px;
-	margin-right: 20px;
+	margin-right: 10px;
 }
 .social_share_privacy_area.box .mail a {
 	display: block;
