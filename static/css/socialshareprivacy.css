@@ -1,6 +1,6 @@
 .social_share_privacy_area {
 	clear: both;
-	margin: 50px 0 0 0;
+	margin: 50px 0;
 	list-style-type: none;
 	padding: 0;
 	width: auto;
@@ -120,87 +120,21 @@
 }
 .social_share_privacy_area li .help_info.icon {
     background: #fff url(../images/socialshareprivacy_info.png) no-repeat center center scroll;
-    width: 30px;
+    width: 25px;
     height: 20px;
     position: relative;
     display: inline-block;
 	vertical-align: top;
 	border: 2px solid #e7e3e3;
 	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px 0 0 5px;
-	border-radius: 5px 0 0 5px;
-    margin: 0;.social_share_privacy_area.line .mail a {
-	display: inline-block;
-	width: 35px;
-	height: 20px;
-	margin-right: 10px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+    margin: 0;
+    padding: 0;
 }
-.social_share_privacy_area.box .mail a {
-	display: block;
-	margin: auto;
-	width: 58px;
-	height: 39px;
-}
-    padding: 0;.social_share_privacy_area.line .mail a {
-	display: inline-block;
-	width: 35px;
-	height: 20px;
-	margin-right: 10px;
-}
-.social_share_privacy_area.box .mail a {
-	display: block;
-	margin: auto;
-	width: 58px;
-	height: 39px;
-}
-}.social_share_privacy_area.line .mail a {
-	display: inline-block;
-	width: 35px;
-	height: 20px;
-	margin-right: 10px;
-}
-.social_share_privacy_area.box .mail a {
-	display: block;
-	margin: auto;
-	width: 58px;
-	height: 39px;
-}
-.social_share_privacy_a.social_share_privacy_area.line .mail a {
-	display: inline-block;
-	width: 35px;
-	height: 20px;
-	margin-right: 10px;
-}
-.social_share_privacy_area.box .mail a {
-	display: block;
-	margin: auto;
-	width: 58px;
-	height: 39px;
-}rea li.settings_info .settings_info_menu.perma_option_off .help_info.icon {
-	border-right-width:.social_share_privacy_area.line .mail a {
-	display: inline-block;
-	width: 35px;
-	height: 20px;
-	margin-right: 10px;
-}
-.social_share_privacy_area.box .mail a {
-	display: block;
-	margin: auto;
-	width: 58px;
-	height: 39px;
-} 2px;
-	-moz-border-radius:.social_share_privacy_area.line .mail a {
-	display: inline-block;
-	width: 35px;
-	height: 20px;
-	margin-right: 10px;
-}
-.social_share_privacy_area.box .mail a {
-	display: block;
-	margin: auto;
-	width: 58px;
-	height: 39px;
-} 5px;
+.social_share_privacy_area li.settings_info .settings_info_menu.perma_option_off .help_info.icon {
+	border-right-width: 2px;
+	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
@@ -277,18 +211,7 @@
     margin: 4px 10px 4px 0;
     padding: 0;
 }
-.social_share_privacy_ar.social_share_privacy_area.line .mail a {
-	display: inline-block;
-	width: 35px;
-	height: 20px;
-	margin-right: 10px;
-}
-.social_share_privacy_area.box .mail a {
-	display: block;
-	margin: auto;
-	width: 58px;
-	height: 39px;
-}ea li.settings_info .settings_info_menu form fieldset label {
+.social_share_privacy_area li.settings_info .settings_info_menu form fieldset label {
     display: block;
     font-size: 12px;
     font-weight: bold;
@@ -304,18 +227,6 @@
 	color: #090;
 }
 /* Settings/Info end */
-.social_share_privacy_area.line .mail a {
-	display: inline-block;
-	width: 35px;
-	height: 20px;
-	margin-right: 10px;
-}
-.social_share_privacy_area.box .mail a {
-	display: block;
-	margin: auto;
-	width: 58px;
-	height: 39px;
-}
 /* Buttons begin */
 /* gplus */
 .social_share_privacy_area.line .gplus img.gplusone_privacy_dummy {
