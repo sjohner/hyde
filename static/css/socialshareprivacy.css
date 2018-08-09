@@ -120,7 +120,7 @@
 }
 .social_share_privacy_area li .help_info.icon {
     background: #fff url(../images/socialshareprivacy_info.png) no-repeat center center scroll;
-    width: 25px;
+    width: 30px;
     height: 20px;
     position: relative;
     display: inline-block;
@@ -320,7 +320,7 @@
 /* Buttons begin */
 /* gplus */
 .social_share_privacy_area.line .gplus img.gplusone_privacy_dummy {
-	width: 70px;
+	width: 60px;
 }
 .social_share_privacy_area.line li div.gplusone {
 	width: 70px;
