@@ -3,13 +3,14 @@
   <h1>{{ .Title }}</h1>
   <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
   {{ .Content }}
-  <div style="margin-top: 40px;" class="share"
+  <div class="share"
     lang="en"
-    data-order="twitter linkedin facebook gplus"
+    data-order="twitter linkedin facebook gplus mail"
     data-services.twitter.dummy_line_img="images/dummy_twitter.png"
     data-services.linkedin.dummy_line_img="images/dummy_linkedin.png"
     data-services.facebook.dummy_line_img="images/dummy_facebook.png"
-    data-services.gplus.dummy_line_img="images/dummy_google-plus.png">
+    data-services.gplus.dummy_line_img="images/dummy_google-plus.png"
+    data-services.mail.dummy_line_img="images/dummy_mail.png">
   </div>
 </div>
 {{ if .Site.Params.socialSharePrivacy -}}
